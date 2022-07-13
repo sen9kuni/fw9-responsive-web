@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url('/assets/img2/background.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+.containerDiv {
+    padding: 55px 150px 0 150px;
+}
+.containerDiv .header {
+    display: flex;
+    justify-content: space-between;
+}
+.containerDiv .header .home{
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 29px;
+    color: #FFFFFF;
+}
+.containerDiv .hero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.buttonLogin {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    border: 2px solid #FFFFFF;
+    padding: 9px 35px 10px 34px;
+    border-radius: 12px;
+    background-color: #6379F4;
+    color: #FFFFFF;
+}
+.buttonSingUp {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 11px 27px 12px 26px;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 12px;
+    color: #6379F4;
+}
+
+.hero .containerHero {
+    margin-top: 101px;
+    color: #FFFFFF;
+    display: block;
+}
+.hero .containerHero p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 27px;
+}
+.hero .containerHero a{
+    text-decoration: none;
+}
+.hero .containerHero .heroText{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.hero .containerHero .heroText span{
+    color: #6379F4;
+}
+.hero .containerHero .heroParag{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.hero .containerHero .btnTry{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    padding: 16px 45px 16px 44px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: #6379F4;
+}
+
+/* partner */
+.partner {
+    background-color: #473AD10F;
+}
+.partnerDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 150px 90px 150px;
+    fill: #BDC2FA;
+}
+/* partner */
+
+/* about */
+.aboutDiv {
+    padding: 120px 150px 120px 150px;
+    text-align: center;
+}
+.aboutDiv .aboutText{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.aboutDiv .aboutText span{
+    color: #6379F4;
+}
+.aboutDiv .aboutParag{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+.aboutDiv .cardBox{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutDiv .cardBox .box{
+    Width: 366px;
+    Height: 344px;
+    border-radius: 25px;
+}
+.aboutDiv .cardBox .box1{
+    Width: 366px;
+    Height: 344px;
+    border-radius: 25px;
+    box-shadow: 0px 4px 250px rgba(172, 172, 172, 0.15)
+}
+.aboutDiv .cardBox .box .content{
+    padding: 40px 30px 50px 30px;
+}
+.aboutDiv .cardBox .box1 .content{
+    padding: 40px 30px 50px 30px;
+}
+.aboutDiv .cardBox .boxText{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+.aboutDiv .cardBox .boxParag{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+/* about */
+
+/* feature */
+.feature {
+    background-color: #473AD10F;
+}
+.featureDiv  {
+    padding: 0px 150px 0px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featureDiv .content{
+    display: block;
+}
+.featureDiv .content p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.featureDiv .content span {
+    color: #6379F4;
+}
+.featureDiv .content .listFeature {
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding: 25px 25px 25px 25px;
+    margin-bottom: 30px;
+}
+.featureDiv .content .listFeature .listTitle{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.featureDiv .content .listFeature .listparag{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+/* feature */
+
+/* saying */
+.sayingDiv {
+    padding: 130px 120px 120px 120px;
+    text-align: center;
+}
+.sayingDiv .sayingTitle {
+    color: #3A3D42;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.sayingDiv .sayingTitle span{
+    color: #6379F4;
+}
+.sayingDiv .sayingParag {
+    color: #3A3D42;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 70px;
+}
+.sayingDiv .cardSaying .card {
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0px 4px 250px rgba(172, 172, 172, 0.15);
+    padding: 60px 60px 60px 60px;
+}
+.sayingDiv .cardSaying{
+    margin: 60px 60px 60px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+/* saying */
+
+/* footer */
+footer {
+    background-color: #6379F4;
+    color: #FFFFFF;
+}
+.footerDiv {
+    padding: 80px 150px 80px 150px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.footerDiv .footerText{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.footerDiv .footerParag{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.footerDiv .contact {
+    display: flex;
+    justify-content: space-between;
+}
+.footerDiv .contact p{
+    font-weight: 400;
+    font-size: 16px;
+}
+.footerDiv ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.footerDiv .contact li {
+    margin-left: 40px;
+    font-weight: 600;
+    font-size: 16px;
+}
+hr {
+    border-top: 2px solid white;
+    opacity: 1;
+}
+/* footer */
