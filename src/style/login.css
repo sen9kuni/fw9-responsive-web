@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.auth-background {
+    background-image: url(/assets/imgDashboard/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 169px 70px 150px;
+    color: #ffff;
+}
+
+.auth-from-wraper {
+    padding: 150px;
+}
+
+.iconLogin {
+    background: unset;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputLogin {
+    border: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputLogin:focus {
+    border-color: gray;
+    box-shadow: unset;
+}
+
+.buttonLogin {
+    background: #6379F4;
+    border: unset;
+    min-height: 57px;
+}
+
+.buttonLogin:hover {
+    background: #7e8cdf;
+}
+
+.colorPrimary {
+    color: #6379F4;
+}
+.colorTextPrimary {
+    color: #3A3D42;
+}
+
+.fontMid {
+    font-weight: 600;
+}
+
+.inputPin {
+    -webkit-appearance: none;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
