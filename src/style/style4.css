@@ -12,8 +12,9 @@ body{
     position: relative;
     height: 100%;
 }
+
 .containerDiv {
-    padding: 55px 150px 0 150px;
+    padding: 55px 150px 200px 150px;
 }
 .containerDiv .header {
     display: flex;
@@ -26,11 +27,7 @@ body{
     font-size: 29px;
     color: #FFFFFF;
 }
-.containerDiv .hero {
-    display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-}
+
 .buttonLogin {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
@@ -55,38 +52,27 @@ body{
     color: #6379F4;
 }
 
-.hero .containerHero {
-    margin-top: 101px;
-    color: #FFFFFF;
-    display: block;
+.containerDiv .hero{
+    margin-top: 177px;
+    text-align: center;
 }
-.hero .containerHero p{
-    font-family: 'Nunito Sans', sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    margin-top: 50px;
-    margin-bottom: 27px;
-}
-.hero .containerHero a{
-    text-decoration: none;
-}
-.hero .containerHero .heroText{
+.hero .heroText{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 800;
-    font-size: 60px;
+    font-size: 68px;
     margin-bottom: 40px;
+    color: #FFFFFF;
 }
-.hero .containerHero .heroText span{
-    color: #6379F4;
-}
-.hero .containerHero .heroParag{
+.hero .heroParag{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 31px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
 }
-.hero .containerHero .btnTry{
+.hero .btnTry{
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
     font-weight: 700;
     font-size: 18px;
     box-sizing: border-box;
