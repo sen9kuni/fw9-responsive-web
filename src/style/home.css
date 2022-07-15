@@ -53,3 +53,53 @@ footer {
 .colorOut {
     color: #FF5B37;
 }
+
+.iconSearch {
+    background: unset;
+    border: unset;
+    border-radius: unset;
+}
+
+.inputSearch {
+    border: unset;
+    background: unset;
+}
+
+.inputSearch:focus {
+    border-color: gray;
+    box-shadow: unset;
+}
+
+.inputAmount {
+    border: unset;
+    background: unset;
+}
+
+.amoutWarp {
+    padding: 15px;
+    border: unset;
+    background: unset;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+    text-align: center;
+    font-size: 42px;
+}
+
+.iconNote {
+    background: unset;
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputNote {
+    border: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputNote:focus {
+    border-color: gray;
+    box-shadow: unset;
+}
