@@ -16,6 +16,8 @@ header {
 
 main {
     padding: 40px 150px;
+    min-height: 678px;
+    min-width: 1140px;
 }
 
 footer {
@@ -24,6 +26,30 @@ footer {
     color: #ffff;
 }
 
-.shadowbox {
+.boxshdw {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.fontWhite {
+    color: #FFFF;
+}
+
+.fontMed {
+    font-weight: 600;
+}
+
+.buttonBack {
+    background-color: #FFFFFF33;
+}
+
+.typeTransColor {
+    color: #7A7886;
+}
+
+.colorIn {
+    color: #1EC15F;
+}
+
+.colorOut {
+    color: #FF5B37;
 }
