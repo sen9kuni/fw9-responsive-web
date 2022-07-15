@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;800&display=swap');
 
+
+header {
+    padding: 42px 150px;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -56,10 +61,13 @@ body{
     font-weight: 600;
 }
 
-.inputPin {
-    -webkit-appearance: none;
-}
-
 input[type=number] {
     -moz-appearance: textfield;
-  }
+}
+
+.pinInput-wrap {
+    max-height: 65px;
+}
+.pinInput-wrap input:focus {
+    outline: none;
+}
