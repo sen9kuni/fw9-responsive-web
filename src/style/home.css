@@ -62,6 +62,7 @@ footer {
 
 .inputSearch {
     border: unset;
+    border-radius: unset;
     background: unset;
 }
 
@@ -72,6 +73,7 @@ footer {
 
 .inputAmount {
     border: unset;
+    border-radius: unset;
     background: unset;
 }
 
@@ -96,10 +98,56 @@ input[type=number] {
 
 .inputNote {
     border: unset;
+    border-radius: unset;
     border-bottom: 1px solid gray;
 }
 
 .inputNote:focus {
     border-color: gray;
     box-shadow: unset;
+}
+
+.iconPassword {
+    background: unset;
+    border:     unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputPassword {
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputPassword:focus {
+    border-color: gray;
+    box-shadow: unset;
+}
+
+.inputPassword::placeholder {
+    color: #A9A9A9CC;
+}
+
+.inputPhone {
+    border: unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
+}
+
+.inputPhone:focus {
+    border-color: gray;
+    box-shadow: unset;
+}
+
+.inputPhone::placeholder {
+    color: #A9A9A9CC;
+    font-size: 16px;
+}
+
+.iconPhone {
+    background: unset;
+    border:     unset;
+    border-radius: unset;
+    border-bottom: 1px solid gray;
 }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Transfer</title>
+    <title>Profile</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -59,6 +59,7 @@
                         <span>Profile</span>
                     </div>
                 </div>
+
                 <div class="col-6"  style="margin-top: 260px;">
                     <div class="d-flex flex-row gap-3">
                         <i data-feather="log-out"></i>
@@ -69,71 +70,44 @@
         </div>
         <!-- nav -->
 
-        <!-- transfer -->
-        <div class="col-9 d-flex flex-column rounded gap-3 boxshdw" style="padding: 30px;">
-            <div>
-                <span class="fw-bold" style="color: #3A3D42; font-size: 18px;">Transfer Money</span>
-            </div>
-
-            <div class="d-flex flex-column gap-4">
-                <!-- profile reciver -->
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded" style="padding: 20px;">
-                    <div class="d-flex flex-row gap-3">
-                        <img src="/assets/imgDashboard/sam.png" alt="">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="fw-bold" style="font-size: 18px;">Samuel Suhi</span>
-                            <span class="typeTransColor" style="font-size: 16px;">+62 813-8492-9994</span>
-                        </div>
-                    </div>
+        <!-- profile etc -->
+        <div class="col-9 d-flex flex-column rounded gap-4 boxshdw" style="padding: 50px 208px 60px;">
+            <!-- profile -->
+            <div class="d-flex flex-column text-center gap-3">
+                <div class="d-flex flex-column gap-2">
+                    <img class="mx-auto" src="/assets/imgDashboard/picProfile.png" alt="" width="80px" height="80px">
+                    <button class="btn mx-auto d-flex flex-row gap-2 align-middle align-items-center" style="max-width: 100px; color: #7A7886; font-size: 16px;">
+                            <i style="height: 15px; width: 15px;" data-feather="edit-2"></i>
+                            Edit
+                    </button>
                 </div>
-                <!-- profile reciver -->
-
-            <div>
-                <span class="fw-bold" style="color: #3A3D42; font-size: 18px;">Details</span>
+                <div class="d-flex flex-column gap-2">
+                    <span class="fw-bold" style="font-size: 24px; color: #4D4B57;">Robert Chandler</span>
+                    <span class="fw-normal" style="font-size: 16px; color: #7A7886;">+62 813-9387-7946 </span>
+                </div>
             </div>
-            
-            <!-- detail -->
+            <!-- profile -->
+            <!-- button edit -->
             <div class="d-flex flex-column gap-3">
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded" style="padding: 20px;">
-                    <div class="d-flex flex-row gap-3">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="typeTransColor" style="font-size: 16px;">Amount</span>
-                            <span class="fw-bold" style="font-size: 18px; color: #514F5B;">Rp100.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded" style="padding: 20px;">
-                    <div class="d-flex flex-row gap-3">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="typeTransColor" style="font-size: 16px;">Balance Left</span>
-                            <span class="fw-bold" style="font-size: 18px; color: #514F5B;">Rp20.000</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded" style="padding: 20px;">
-                    <div class="d-flex flex-row gap-3">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="typeTransColor" style="font-size: 16px;">Date & Time</span>
-                            <span class="fw-bold" style="font-size: 18px; color: #514F5B;">May 11, 2020 - 12.20</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded" style="padding: 20px;">
-                    <div class="d-flex flex-row gap-3">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="typeTransColor" style="font-size: 16px;">Notes</span>
-                            <span class="fw-bold" style="font-size: 18px; color: #514F5B;">For buying some socks</span>
-                        </div>
-                    </div>
-                </div>
+                <button class="btn btn-lg d-flex flex-row justify-content-between align-middle align-items-center rounded-3" style="min-width: 433px; min-height: 64px; background-color: #E5E8ED; color: #4D4B57;">
+                    <span class="fw-bold">Personal Information</span>
+                    <i style="color: #7E7D84;" data-feather="arrow-right"></i>
+                </button>
+                <button class="btn btn-lg d-flex flex-row justify-content-between align-middle align-items-center rounded-3" style="min-width: 433px; min-height: 64px; background-color: #E5E8ED; color: #4D4B57;">
+                    <span class="fw-bold">Change Password</span>
+                    <i style="color: #7E7D84;" data-feather="arrow-right"></i>
+                </button>
+                <button class="btn btn-lg d-flex flex-row justify-content-between align-middle align-items-center rounded-3" style="min-width: 433px; min-height: 64px; background-color: #E5E8ED; color: #4D4B57;">
+                    <span class="fw-bold">Change PIN</span>
+                    <i style="color: #7E7D84;" data-feather="arrow-right"></i>
+                </button>
+                <button class="btn btn-lg d-flex flex-row justify-content-between align-middle align-items-center rounded-3" style="min-width: 433px; min-height: 64px; background-color: #E5E8ED; color: #4D4B57;">
+                    <span class="fw-bold">Logout</span>
+                </button>
             </div>
-            <!-- detail -->
-                <div class="d-flex justify-content-end">
-                    <button class="btn btn-lg fw-bold" style="background-color: #6379F4; color: #FFFF;">Continue</button>
-                </div>
-            </div>
+            <!-- button edit -->
         </div>
-        <!-- transfer -->
+        <!-- profile etc -->
     </main>
     
     <footer class="d-flex flex-row justify-content-between" style="padding: 20px 120px; background-color: #6379F4;">
