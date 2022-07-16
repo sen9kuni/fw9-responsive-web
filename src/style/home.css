@@ -26,6 +26,93 @@ footer {
     color: #ffff;
 }
 
+.footerWarp {
+    padding: 20px 120px; 
+    background-color: #6379F4;
+}
+
+.footerCopyRight {
+    font-size: 16px; 
+    color: #EFEFEFE5;
+}
+
+.footerContact {
+    font-size: 16px; 
+    color: #EFEFEF;
+}
+
+.textLogo {
+    font-size: 25px; 
+    color: #6379F4;
+}
+
+.namePhoneWrap {
+    padding: 0 20px;
+}
+
+.textProfileName {
+    font-size: 18px;
+}
+
+.textProfileNumber {
+    font-size: 13px;
+}
+
+.navWrap {
+    padding: 50px 35px;
+    color: #3A3D42CC;
+}
+
+.balanceHomeWarp {
+    padding: 30px; 
+    min-height: 190px; 
+    background-color: #6379F4;
+}
+
+.fontSize-18 {
+    font-size: 18px;
+}
+
+.fontSize-16 {
+    font-size: 16px;
+}
+
+.balanceTitle {
+    font-size: 18px;
+    color: #E0E0E0;
+}
+
+.balancePhone {
+    font-size: 14px;
+    color: #E0E0E0;
+}
+
+.historyHomeWrap {
+    min-height: 468px;
+}
+
+.incomeWarp {
+    padding: 30px;
+}
+
+.incomeTitle {
+    color: #6A6A6A;
+}
+
+.incomeVal {
+    font-size: 18px;
+    color: #3A3D42;
+}
+
+.trsansHistoryHomeWarp {
+    padding: 30px 30px 20px;
+}
+
+.listHomeWarp {
+    padding: 20px 30px; 
+    min-height: 96px;
+}
+
 .boxshdw {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
@@ -150,4 +237,232 @@ input[type=number] {
     border:     unset;
     border-radius: unset;
     border-bottom: 1px solid gray;
+}
+
+.fwModal .modal-header {
+    border-bottom: unset;
+}
+
+.fwModal .modal-footer {
+    border-top: unset;
+}
+
+.inputPin {
+    border: unset;
+    border-radius: unset;
+}
+
+.inputPin input:focus {
+    outline: none;
+}
+
+.addPhoneTitle {
+    color: #3A3D42; 
+    font-size: 18px;
+}
+
+.addPhoneParag {
+    color: #7A7886; 
+    font-size: 16px;
+}
+
+.addPhoneWarp {
+    padding: 50px 208px 60px; 
+    color: #A9A9A9CC;
+}
+
+.color9A {
+    color: #A9A9A9CC;
+}
+
+.firstNumPhone {
+    font-size: 16px; 
+    color: #3A3D42;
+}
+
+.btnAddPhone {
+    background-color: #6379F4; 
+    color: #FFFF; 
+    min-height: 57px;
+}
+
+.addPhoneParagWrap {
+    padding: 30px;
+}
+
+.inputPasswordWrap {
+    padding: 50px 208px 60px; 
+    color: #A9A9A9CC;
+}
+
+.btnChngPass {
+    background-color: #6379F4; 
+    color: #FFFF; 
+    min-height: 57px;
+}
+
+.inputPinWrap {
+    padding: 50px 208px 60px; 
+    color: #A9A9A9CC;
+}
+
+.inputChngPin {
+    border-radius: 10px; 
+    border: 1px solid #A9A9A999; 
+    padding: 10px 10px;
+}
+
+.inputChngPin input {
+    font-size: 30px; 
+    text-align: center; 
+    width: 40px; 
+    border: unset; 
+    border-bottom: 1px solid #A9A9A999;
+}
+
+.inputChngPin input:focus {
+    outline: none;
+}
+
+.btnChngPin {
+    background-color: #6379F4; 
+    color: #FFFF; 
+    min-height: 57px;
+}
+
+.pedding30 {
+    padding: 30px;
+}
+
+.pedding20 {
+    padding: 20px;
+}
+
+.conDetail {
+    font-size: 18px; 
+    color: #514F5B;
+}
+
+.btnCon {
+    background-color: #6379F4; 
+    color: #FFFF;
+}
+
+.historyWrap {
+    padding: 30px 30px 75px;
+}
+
+.detailWrap {
+    padding: 20px; 
+    min-height: 92px;
+}
+
+.detailPhone {
+    font-size: 22px; 
+    color: #514F5B;
+}
+
+.colorBBE {
+    color: #BBBBBE;
+}
+
+.detailPersonalWrap {
+    padding: 20px; 
+    min-height: 92px;
+}
+
+.btnManage {
+    color: #6379F4; 
+    text-decoration: none; 
+    font-size: 16px;
+}
+
+.profileWrapV1 {
+    padding: 50px 208px 60px;
+}
+
+.btnEditProfile {
+    max-width: 100px; 
+    color: #7A7886; 
+    font-size: 16px;
+}
+
+.profileName {
+    font-size: 24px; 
+    color: #4D4B57;
+}
+
+.profileNum {
+    font-size: 16px; 
+    color: #7A7886;
+}
+
+.profileEditBtn {
+    min-width: 433px; 
+    min-height: 64px; 
+    background-color: #E5E8ED; 
+    color: #4D4B57;
+}
+
+.profileEditBtnV2 {
+    min-width: 403px; 
+    min-height: 64px; 
+    background-color: #E5E8ED; 
+    color: #4D4B57;
+}
+
+.profileEditBtnV2Wrap {
+    padding: 32px 30px;
+}
+
+.color7E {
+    color: #7E7D84;
+}
+
+.profileWrapV2 {
+    padding: 50px 333px 45px; 
+    min-height: 190px;
+}
+
+.contactWarp {
+    padding: 30px 20px;
+}
+
+.listWrap {
+    padding: 20px 30px; 
+    min-height: 96px;
+}
+
+.searchRecivWrap {
+    padding: 30px 30px 14px;
+}
+
+.searchWrap {
+    padding: 15px; 
+    background-color: #3A3D421A;
+}
+
+.searchListWrap {
+    padding: 20px; min-height: 110px;
+}
+
+.colorPrimary {
+    color: #6379F4
+}
+
+.btnTry {
+    background-color: #6379F4; 
+    color: #FFFF; 
+    font-size: 18px;
+}
+
+.btnShare {
+    background-color: #6379F426; 
+    color: #3A3D42;
+}
+
+.btnDwnldPdf {
+    background-color: #6379F426; 
+    color: #6379F4; 
+    font-size: 18px;
 }

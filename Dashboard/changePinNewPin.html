@@ -17,7 +17,7 @@
     <header class="d-flex flex-row row align-items-center mw-100 m-0">
         <div class="col">
             <div class="d-flex justify-content-start">
-                <span class="fw-bold" style="font-size: 25px; color: #6379F4;">Zwallet</span>
+                <span class="fw-bold textLogo">Zwallet</span>
             </div>
         </div>
         <div class="col">
@@ -25,9 +25,9 @@
                 <div>
                     <img src="/assets/imgDashboard/picProfile.png" alt="" srcset="">
                 </div>
-                <div class="d-flex flex-column" style="padding: 0 20px;">
-                    <span class="fw-bold" style="font-size: 18px;">Robert Chandler</span>
-                    <span class="fw-normal" style="font-size: 13px;">+62 8139 3877 7946</span>
+                <div class="d-flex flex-column namePhoneWrap">
+                    <span class="fw-bold textProfileName">Robert Chandler</span>
+                    <span class="fw-normal textProfileNumber">+62 8139 3877 7946</span>
                 </div>
                 <div>
                     <i data-feather="bell"></i>
@@ -39,7 +39,7 @@
 
     <main class="d-flex flex-row gap-3">
         <!-- nav -->
-        <div class="col-3 d-flex flex-column rounded boxshdw" style="padding: 50px 35px; color: #3A3D42CC;">
+        <div class="d-flex flex-column col-3 rounded boxshdw navWrap">
             <div class="d-flex flex-column gap-5">
                 <div class="col-6 d-flex flex-column gap-5">
                     <div class="d-flex flex-row gap-3">
@@ -73,34 +73,34 @@
         <!-- change pin etc -->
         <div class="col-9 d-flex flex-column rounded gap-4 boxshdw">
             <!-- parag -->
-            <div class="d-flex flex-column gap-4" style="padding: 30px;">
-                <span class="fw-bold" style="color: #3A3D42; font-size: 18px;">Change PIN</span>
-                <p class="fw-normal" style="color: #7A7886; font-size: 16px;">Type your new 6 digits security PIN to <br> use in Zwallet.</p>
+            <div class="d-flex flex-column gap-4 pedding30">
+                <span class="fw-bold addPhoneTitle">Change PIN</span>
+                <p class="fw-normal addPhoneParag">Type your new 6 digits security PIN to <br> use in Zwallet.</p>
             </div>
             <!-- parag -->
             <!-- input old pin-->
-            <div class="d-flex flex-column gap-5" style="padding: 50px 208px 60px; color: #A9A9A9CC;">
+            <div class="d-flex flex-column gap-5 inputPinWrap">
                 <div class="d-flex justify-content-center flex-row gap-3 pinInput-wrap">
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
-                    <div class="d-flex align-items-center" style="border-radius: 10px; border: 1px solid #A9A9A999; padding: 10px 10px;">
-                        <input type="number" maxlength="1" min="0" max="9" style="font-size: 30px; text-align: center; width: 40px; border: unset; border-bottom: 1px solid #A9A9A999;">
+                    <div class="d-flex align-items-center inputChngPin">
+                        <input type="number" maxlength="1" min="0" max="9">
                     </div>
                 </div>
-                <button class="btn btn-lg fw-bold" style="background-color: #6379F4; color: #FFFF; min-height: 57px;">
+                <button class="btn btn-lg fw-bold btnChngPin">
                     Change PIN
                 </button>
             </div>
@@ -109,13 +109,13 @@
         <!-- change pin etc -->
     </main>
     
-    <footer class="d-flex flex-row justify-content-between" style="padding: 20px 120px; background-color: #6379F4;">
+    <footer class="d-flex flex-row justify-content-between footerWarp">
         <div>
-            <span class="fw-normal" style="font-size: 16px; color: #EFEFEFE5;">2020 Zwallet. All right reserved.</span>
+            <span class="fw-normal footerCopyRight">2020 Zwallet. All right reserved.</span>
         </div>
         <div class="d-flex flex-row gap-5">
-            <span class="fw-light" style="font-size: 16px; color: #EFEFEF;">+62 5637 8882 9901</span>
-            <span class="fw-light" style="font-size: 16px; color: #EFEFEF;">contact@zwallet.com</span>
+            <span class="fw-light footerContact">+62 5637 8882 9901</span>
+            <span class="fw-light footerContact">contact@zwallet.com</span>
         </div>
     </footer>
 
