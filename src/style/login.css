@@ -71,3 +71,17 @@ input[type=number] {
 .pinInput-wrap input:focus {
     outline: none;
 }
+
+.inputPinWrap {
+    border-radius: 10px; 
+    border: 1px solid gray; 
+    padding: 10px 10px;
+}
+
+.pinInput {
+    font-size: 30px; 
+    text-align: center; 
+    width: 40px; 
+    border: unset; 
+    border-bottom: 1px solid gray;
+}
