@@ -19,9 +19,11 @@ body{
     color: #ffff;
 }
 
-.auth-from-wraper {
-    padding: 150px;
-}
+@media only screen and (min-width: 992px) {
+    .auth-from-wraper {
+        padding: 150px;
+    }
+} 
 
 .iconLogin {
     background: unset;
@@ -32,6 +34,7 @@ body{
 
 .inputLogin {
     border: unset;
+    border-radius: unset;
     border-bottom: 1px solid gray;
 }
 
@@ -68,6 +71,7 @@ input[type=number] {
 .pinInput-wrap {
     max-height: 65px;
 }
+
 .pinInput-wrap input:focus {
     outline: none;
 }
@@ -84,4 +88,11 @@ input[type=number] {
     width: 40px; 
     border: unset; 
     border-bottom: 1px solid gray;
+}
+
+.logoMobile{
+    background-color: #6379F4;
+    color: #ffff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

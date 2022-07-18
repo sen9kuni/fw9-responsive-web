@@ -14,8 +14,13 @@
 
   </head>
   <body>
+      <!-- logo mobile -->
+    <div class="d-flex justify-content-center p-3 logoMobile d-md-none">
+      <span class="fs-2 fw-bold">Zwallet</span>
+    </div>
+
       <div class="row min-vh-100 mw-100">
-        <div class="col-7 auth-background d-flex flex-column gap-5">
+        <div class="col-md-7 d-none auth-background d-md-flex flex-md-column gap-md-5">
           <div>
             <span class="fs-2 fw-bold">Zwallet</span>
           </div>
@@ -32,11 +37,11 @@
           </div>
         </div>
 
-        <div class="col-5 px-5 auth-from-wraper d-flex flex-column gap-5">
-          <h3 class="text-start fs-3 fw-bold colorTextPrimary">Secure Your Account, Your Wallet,<br> and Your Data With 6 Digits PIN<br> That You Created Yourself.</h3>
+        <div class="col-12 p-5 gap-4 col-md-5 px-md-5 auth-from-wraper d-flex flex-column gap-md-5">
+          <h3 class="text-start fs-3 fw-bold colorTextPrimary">Secure Your Account, Your Wallet, and Your Data With 6 Digits PIN That You Created Yourself.</h3>
           <p class="text-start fw-normal text-muted">Create 6 digits pin to secure all your money and your data in <br> Zwallet app. Keep it secret and don't tell anyone about your <br> Zwallet account password and the PIN.</p>
 
-          <div class="d-flex justify-content-center flex-row gap-3 pinInput-wrap">
+          <div class="d-flex justify-content-center flex-row gap-md-3 gap-1 pinInput-wrap">
             <div class="d-flex align-items-center inputPinWrap">
               <input type="number" maxlength="1" min="0" max="9" class="pinInput">
             </div>
