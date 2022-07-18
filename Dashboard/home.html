@@ -37,9 +37,44 @@
     </header>
     <!-- header -->
 
-    <main class="d-flex flex-row gap-3">
+    <main class="d-flex flex-column flex-md-row gap-3">
         <!-- nav -->
-        <div class="d-none d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
+        <div class="d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
+            <div class="d-flex flex-column gap-4 gap-md-5 h-100">
+                <div class="navButton ">
+                    <a href="/Dashboard/home.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="grid"></i>
+                        <span class="fw-bold">Dashboard</span>
+                    </a>
+                </div>
+                <div class="navButton ">
+                    <a href="/Dashboard/searchReceiver.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="arrow-up"></i>
+                        <span class="fw-bold">Transfer</span>
+                    </a>
+                </div>
+                <div class="navButton ">
+                    <a href="/Dashboard/topup.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="plus"></i>
+                        <span class="fw-bold">Top Up</span>
+                    </a>
+                </div>
+                <div class="navButton ">
+                    <a href="/Dashboard/profilev1.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="user"></i>
+                        <span class="fw-bold">Profile</span>
+                    </a>
+                </div>
+                <div class="navButton mt-auto">
+                    <a href="../index.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="log-out"></i>
+                        <span class="fw-bold">Logout</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="d-none d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
             <div class="d-flex flex-column gap-5 h-100">
                 <div class="d-flex flex-row gap-3">
                     <i data-feather="grid"></i>
@@ -62,7 +97,7 @@
                     <span>Logout</span>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- nav -->
 
         <!-- balance etc -->
@@ -76,11 +111,11 @@
                         <span class="fontMid balancePhone">+62 813-9387-7946</span>
                     </div>
                     <div class="d-flex flex-column gap-2">
-                        <button class="btn btn-lg btn-outline-light buttonBack">
+                        <button onclick="document.location='/Dashboard/searchReceiver.html'" class="btn btn-lg btn-outline-light buttonBack">
                             <i data-feather="arrow-up"></i>
                             <span class="fw-bold fontSize">Transfer</span>
                         </button>
-                        <button class="btn btn-lg btn-outline-light buttonBack">
+                        <button onclick="document.location='/Dashboard/topup.html'" class="btn btn-lg btn-outline-light buttonBack">
                             <i data-feather="plus"></i>
                             <span class="fw-bold fontSize">Top Up</span>
                         </button>
@@ -114,7 +149,7 @@
                     <div class="col-12 col-md-5 rounded boxshdw">
                         <div class="d-flex flex-row justify-content-between p-3 trsansHistoryHomeWarp">
                             <span class="fw-bold fontSize-18">Transaction History</span>
-                            <a class="text-decoration-none" href="#">See all</a>
+                            <a class="text-decoration-none" href="/Dashboard/history.html">See all</a>
                         </div>
 
                         <!-- list -->

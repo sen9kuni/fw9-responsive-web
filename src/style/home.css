@@ -7,6 +7,14 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+.navButton a{
+    color: #3A3D42CC;
+}
+
+.navButton a:hover{
+    color: #6379F4;
+}
+
 @media only screen and (min-width: 768px) {
     header {
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -17,12 +25,12 @@ body{
 
     main {
         padding: 40px 150px !important;
-        min-height: 678px;
+        min-height: 678px !important;
         min-width: 1140px;
     }
 
     .trsansHistoryHomeWarp {
-        padding: 30px 30px 20px;
+        padding: 30px 30px 20px !important;
     }
     
     .listHomeWarp {
@@ -506,4 +514,8 @@ input[type=number] {
     background-color: #6379F426; 
     color: #6379F4; 
     font-size: 18px;
+}
+
+.color4D {
+    color: #4D4B57;
 }

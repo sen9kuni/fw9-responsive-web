@@ -37,29 +37,39 @@
     </header>
     <!-- header -->
 
-    <main class="d-flex my-3 flex-row gap-3">
+    <main class="d-flex flex-column flex-md-row gap-3">
         <!-- nav -->
-        <div class="d-none d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
-            <div class="d-flex flex-column gap-5 h-100">
-                <div class="d-flex flex-row gap-3">
-                    <i data-feather="grid"></i>
-                    <span>Dashboard</span>
+        <div class="d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
+            <div class="d-flex flex-column gap-4 gap-md-5 h-100">
+                <div class="navButton ">
+                    <a href="/Dashboard/home.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="grid"></i>
+                        <span class="fw-bold">Dashboard</span>
+                    </a>
                 </div>
-                <div class="d-flex flex-row gap-3">
-                    <i data-feather="arrow-up"></i>
-                    <span>Transfer</span>
+                <div class="navButton ">
+                    <a href="/Dashboard/searchReceiver.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="arrow-up"></i>
+                        <span class="fw-bold">Transfer</span>
+                    </a>
                 </div>
-                <div class="d-flex flex-row gap-3">
-                    <i data-feather="plus"></i>
-                    <span>Top Up</span>
+                <div class="navButton ">
+                    <a href="/Dashboard/topup.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="plus"></i>
+                        <span class="fw-bold">Top Up</span>
+                    </a>
                 </div>
-                <div class="d-flex flex-row gap-3">
-                    <i data-feather="user"></i>
-                    <span>Profile</span>
+                <div class="navButton ">
+                    <a href="/Dashboard/profilev1.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="user"></i>
+                        <span class="fw-bold">Profile</span>
+                    </a>
                 </div>
-                <div class="d-flex flex-row gap-3 mt-auto">
-                    <i data-feather="log-out"></i>
-                    <span>Logout</span>
+                <div class="navButton mt-auto">
+                    <a href="../index.html" class="d-flex flex-row gap-3 text-decoration-none">
+                        <i data-feather="log-out"></i>
+                        <span class="fw-bold">Logout</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -81,42 +91,50 @@
             <!-- search -->
             <!-- list -->
             <div class="d-flex flex-column gap-3">
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
-                    <div class="d-flex flex-row gap-3">
-                        <img src="/assets/imgDashboard/sam.png" alt="" height="70px" width="70px">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="fw-bold fontSize-18">Samuel Suhi</span>
-                            <span class="typeTransColor fontSize-16">+62 813-8492-9994</span>
+                <a class="text-decoration-none" href="/Dashboard/inputAmount.html">
+                    <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
+                        <div class="d-flex flex-row gap-3">
+                            <img src="/assets/imgDashboard/sam.png" alt="" height="70px" width="70px">
+                            <div class="d-flex flex-column gap-2">
+                                <span class="fw-bold fontSize-18 color4D">Samuel Suhi</span>
+                                <span class="typeTransColor fontSize-16">+62 813-8492-9994</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
-                    <div class="d-flex flex-row gap-3">
-                        <img src="/assets/imgDashboard/momo.png" alt="">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="fw-bold fontSize-18">Momo Taro</span>
-                            <span class="typeTransColor fontSize-16">+62 812-4343-6731</span>
+                </a>
+                <a class="text-decoration-none" href="/Dashboard/inputAmount.html">
+                    <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
+                        <div class="d-flex flex-row gap-3">
+                            <img src="/assets/imgDashboard/momo.png" alt="">
+                            <div class="d-flex flex-column gap-2">
+                                <span class="fw-bold fontSize-18 color4D">Momo Taro</span>
+                                <span class="typeTransColor fontSize-16">+62 812-4343-6731</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
-                    <div class="d-flex flex-row gap-3">
-                        <img src="/assets/imgDashboard/jesicca.png" alt="">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="fw-bold fontSize-18">Jessica Keen</span>
-                            <span class="typeTransColor fontSize-16">+62 811-3452-5252</span>
+                </a>
+                <a class="text-decoration-none" href="/Dashboard/inputAmount.html">
+                    <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
+                        <div class="d-flex flex-row gap-3">
+                            <img src="/assets/imgDashboard/jesicca.png" alt="">
+                            <div class="d-flex flex-column gap-2">
+                                <span class="fw-bold fontSize-18 color4D">Jessica Keen</span>
+                                <span class="typeTransColor fontSize-16">+62 811-3452-5252</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
-                    <div class="d-flex flex-row gap-3">
-                        <img src="/assets/imgDashboard/mich.png" alt="">
-                        <div class="d-flex flex-column gap-2">
-                            <span class="fw-bold fontSize-18">Michael Le</span>
-                            <span class="typeTransColor fontSize-16">+62 810-4224-4613</span>
+                </a>
+                <a class="text-decoration-none" href="/Dashboard/inputAmount.html">
+                    <div class="d-flex flex-row justify-content-between align-items-center boxshdw rounded searchListWrap">
+                        <div class="d-flex flex-row gap-3">
+                            <img src="/assets/imgDashboard/mich.png" alt="">
+                            <div class="d-flex flex-column gap-2">
+                                <span class="fw-bold fontSize-18 color4D">Michael Le</span>
+                                <span class="typeTransColor fontSize-16">+62 810-4224-4613</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
         <!-- reciver list -->
