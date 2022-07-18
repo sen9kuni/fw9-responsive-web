@@ -14,20 +14,20 @@
   <body>
 
     <!-- header -->
-    <header class="d-flex flex-row row align-items-center mw-100 m-0">
-        <div class="col">
+    <header class="d-flex flex-md-row align-items-md-center mw-100 m-0">
+        <div class="col-md-6 d-none d-md-flex">
             <div class="d-flex justify-content-start">
                 <span class="fw-bold textLogo">Zwallet</span>
             </div>
         </div>
-        <div class="col">
-            <div class="d-flex justify-content-end align-items-center">
-                <div>
+        <div class="col-12 col-md-6">
+            <div class="d-flex p-3 p-md-0 justify-content-md-end align-items-center justify-content-between">
+                <div class="d-flex flex-row">
                     <img src="/assets/imgDashboard/picProfile.png" alt="" srcset="">
-                </div>
-                <div class="d-flex flex-column namePhoneWrap">
-                    <span class="fw-bold textProfileName">Robert Chandler</span>
-                    <span class="fw-normal textProfileNumber">+62 8139 3877 7946</span>
+                    <div class="d-flex flex-column namePhoneWrap">
+                        <span class="fw-bold textProfileName">Robert Chandler</span>
+                        <span class="fw-normal textProfileNumber">+62 8139 3877 7946</span>
+                    </div>
                 </div>
                 <div>
                     <i data-feather="bell"></i>
@@ -39,7 +39,7 @@
 
     <main class="d-flex flex-row gap-3">
         <!-- nav -->
-        <div class="d-flex flex-column col-3 rounded boxshdw navWrap">
+        <div class="d-none d-md-flex flex-md-column col-md-3 rounded boxshdw navWrap">
             <div class="d-flex flex-column gap-5 h-100">
                 <div class="d-flex flex-row gap-3">
                     <i data-feather="grid"></i>
@@ -66,7 +66,7 @@
         <!-- nav -->
 
         <!-- top up etc -->
-        <div class="col-9 d-flex flex-column rounded gap-3 boxshdw pedding30">
+        <div class="col-12 col-md-9 d-flex flex-column rounded gap-3 boxshdw pedding30">
             <div>
                 <span class="fw-bold addPhoneTitle">How To Top Up</span>
             </div>
@@ -143,7 +143,7 @@
         <!-- top up etc -->
     </main>
     
-    <footer class="d-flex flex-row justify-content-between footerWarp">
+    <footer class="d-flex flex-column p-3 p-md-4 gap-3 gap-md-0 flex-md-row justify-content-md-between footerWarp">
         <div>
             <span class="fw-normal footerCopyRight">2020 Zwallet. All right reserved.</span>
         </div>

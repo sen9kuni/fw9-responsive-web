@@ -7,27 +7,97 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
+@media only screen and (min-width: 768px) {
+    header {
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        padding: 42px 150px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    main {
+        padding: 40px 150px !important;
+        min-height: 678px;
+        min-width: 1140px;
+    }
+
+    .trsansHistoryHomeWarp {
+        padding: 30px 30px 20px;
+    }
+    
+    .listHomeWarp {
+        padding: 20px 30px; 
+        min-height: 96px;
+    }
+    
+    footer {
+        padding: 20px 150px;
+        background-color: #6379F4;
+        color: #ffff;
+    }
+    
+    .footerWarp {
+        padding: 20px 120px; 
+        background-color: #6379F4;
+    }
+
+    .historyWrap {
+        padding: 30px 30px 75px !important;
+    }
+
+    .btnEditProfile {
+        max-width: 100px; 
+        color: #7A7886; 
+        font-size: 16px;
+    }
+    
+    .profileWrapV1 {
+        padding: 50px 208px 60px !important;
+    }
+
+    .profileWrapV2 {
+        padding: 50px 333px 45px !important; 
+        min-height: 190px;
+    }
+
+    .profileEditBtnV2 {
+        min-width: 403px; 
+        min-height: 64px; 
+        background-color: #E5E8ED; 
+        color: #4D4B57;
+    }
+    
+    .inputPasswordWrap {
+        padding: 50px 208px 60px !important; 
+        color: #A9A9A9CC;
+    }
+
+    .addPhoneWarp {
+        padding: 50px 208px 60px !important; 
+        color: #A9A9A9CC;
+    }
+
+    .addPhoneParagWrap {
+        padding: 30px;
+    }
+} 
+
 header {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-    padding: 42px 150px;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
 }
 
 main {
-    padding: 40px 150px;
-    min-height: 678px;
-    min-width: 1140px;
+    min-height: 846px;
 }
 
 footer {
-    padding: 20px 150px;
     background-color: #6379F4;
     color: #ffff;
 }
 
 .footerWarp {
-    padding: 20px 120px; 
     background-color: #6379F4;
 }
 
@@ -104,14 +174,6 @@ footer {
     color: #3A3D42;
 }
 
-.trsansHistoryHomeWarp {
-    padding: 30px 30px 20px;
-}
-
-.listHomeWarp {
-    padding: 20px 30px; 
-    min-height: 96px;
-}
 
 .boxshdw {
     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
@@ -267,7 +329,6 @@ input[type=number] {
 }
 
 .addPhoneWarp {
-    padding: 50px 208px 60px; 
     color: #A9A9A9CC;
 }
 
@@ -286,12 +347,9 @@ input[type=number] {
     min-height: 57px;
 }
 
-.addPhoneParagWrap {
-    padding: 30px;
-}
+
 
 .inputPasswordWrap {
-    padding: 50px 208px 60px; 
     color: #A9A9A9CC;
 }
 
@@ -348,9 +406,7 @@ input[type=number] {
     color: #FFFF;
 }
 
-.historyWrap {
-    padding: 30px 30px 75px;
-}
+
 
 .detailWrap {
     padding: 20px; 
@@ -377,16 +433,6 @@ input[type=number] {
     font-size: 16px;
 }
 
-.profileWrapV1 {
-    padding: 50px 208px 60px;
-}
-
-.btnEditProfile {
-    max-width: 100px; 
-    color: #7A7886; 
-    font-size: 16px;
-}
-
 .profileName {
     font-size: 24px; 
     color: #4D4B57;
@@ -398,15 +444,13 @@ input[type=number] {
 }
 
 .profileEditBtn {
-    min-width: 433px; 
-    min-height: 64px; 
+    /* min-width: 433px; 
+    min-height: 64px;  */
     background-color: #E5E8ED; 
     color: #4D4B57;
 }
 
 .profileEditBtnV2 {
-    min-width: 403px; 
-    min-height: 64px; 
     background-color: #E5E8ED; 
     color: #4D4B57;
 }
@@ -419,10 +463,7 @@ input[type=number] {
     color: #7E7D84;
 }
 
-.profileWrapV2 {
-    padding: 50px 333px 45px; 
-    min-height: 190px;
-}
+
 
 .contactWarp {
     padding: 30px 20px;
