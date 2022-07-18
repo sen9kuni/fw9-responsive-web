@@ -2,6 +2,7 @@
 
 *{
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -23,6 +24,18 @@
     }
 
     /* test */
+    
+    .newHero {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .newHeroContent {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
     
     header {
         display: flex;
@@ -301,12 +314,40 @@
 
 @media only screen and (min-width: 768px) {
 
-    header {
+    /* header {
         display: flex;
         justify-content: space-between;
         margin: 63px 150px 0 150px;
+    } */
+
+    .newHero {
+        display: flex; 
+        flex-direction: row;
     }
-    
+
+    .newHeroContent {
+        flex:1; 
+        margin: auto; 
+        padding-left: 150px; 
+        display: flex; 
+        flex-direction: column; 
+        gap: 25px;
+    }
+
+    nav {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        padding: 55px 150px 0 ; 
+        align-items: center;
+    }
+    header {
+        min-height: 100vh; 
+        background: url(/assets/img/Rectangleweve.svg); 
+        background-repeat: no-repeat; 
+        background-size: 40%; 
+        background-position: top right; 
+    }
     .logo {
         font-family: 'Nunito Sans', sans-serif;
         font-weight: 700;
