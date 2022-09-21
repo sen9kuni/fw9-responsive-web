@@ -20,4 +20,4 @@ this web application made html, css, bootstrap
 3. you can run app (with extension live server if use Visual Studio Code) 
 
 ## Note
-- there are 4 options for index, you can choose one what you want
+- there are 4 options for index & profile, you can choose one what you want
