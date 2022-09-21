@@ -492,7 +492,8 @@ input[type=number] {
 }
 
 .searchListWrap {
-    padding: 20px; min-height: 110px;
+    padding: 20px; 
+    min-height: 110px;
 }
 
 .colorPrimary {
